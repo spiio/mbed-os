@@ -166,8 +166,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "device_name": "LPC11C24FBD48/301"
@@ -193,8 +191,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "default_lib": "small",
@@ -225,8 +221,6 @@
             "SEMIHOST",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "default_lib": "small",
@@ -252,8 +246,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "release_versions": ["2"]
@@ -280,8 +272,6 @@
             "SEMIHOST",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "device_name": "LPC11U24FHI33/301"
@@ -306,9 +296,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "default_lib": "small",
         "device_name": "LPC11U34FBD48/311"
@@ -340,9 +328,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "default_lib": "small",
         "release_versions": ["2"],
@@ -368,9 +354,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "default_lib": "small",
         "release_versions": ["2"],
@@ -396,9 +380,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "default_lib": "small",
         "device_name": "LPC11U35FHI33/501"
@@ -426,9 +408,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "default_lib": "small",
         "device_name": "LPC11U35FHI33/501"
@@ -458,9 +438,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "device_name": "LPC11U37FBD64/501"
     },
@@ -485,9 +463,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "default_lib": "small",
         "release_versions": ["2"],
@@ -508,8 +484,7 @@
             "INTERRUPTIN",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI"
+            "SLEEP"
         ],
         "default_lib": "small",
         "release_versions": ["2"],
@@ -531,8 +506,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "release_versions": ["2"],
@@ -554,9 +527,7 @@
             "INTERRUPTIN",
             "PWMOUT",
             "SERIAL",
-            "SERIAL_FC",
-            "SPI",
-            "SPISLAVE"
+            "SERIAL_FC"
         ],
         "default_lib": "small",
         "release_versions": ["2"],
@@ -589,8 +560,6 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "FLASH",
             "MPU"
@@ -636,8 +605,6 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "FLASH",
             "MPU"
@@ -686,8 +653,6 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "FLASH",
             "MPU"
@@ -724,8 +689,6 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "FLASH",
             "MPU"
@@ -746,9 +709,7 @@
             "PWMOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "default_lib": "small",
         "device_name": "LPC810M021FN8"
@@ -769,9 +730,7 @@
             "PWMOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "default_lib": "small",
         "release_versions": ["2"],
@@ -792,9 +751,7 @@
             "INTERRUPTIN",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "default_lib": "small",
         "release_versions": ["2"],
@@ -814,9 +771,7 @@
             "INTERRUPTIN",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "default_lib": "small",
         "release_versions": ["2"]
@@ -846,8 +801,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "MPU"
         ],
@@ -883,8 +836,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "MPU"
         ],
@@ -909,8 +860,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ]
     },
@@ -933,8 +882,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "MPU"
         ],
@@ -969,9 +916,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "default_lib": "small",
         "release_versions": ["2"],
@@ -1010,8 +955,6 @@
             "SEMIHOST",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "default_lib": "small",
@@ -1040,8 +983,6 @@
             "SEMIHOST",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "release_versions": ["2", "5"],
@@ -1068,8 +1009,6 @@
             "SEMIHOST",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "device_name": "MKL26Z128xxx4"
@@ -1096,8 +1035,6 @@
             "SEMIHOST",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "FLASH"
         ],
@@ -1124,8 +1061,6 @@
             "SEMIHOST",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "release_versions": ["2"],
@@ -1156,8 +1091,6 @@
             "SEMIHOST",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "release_versions": ["2"],
@@ -1196,8 +1129,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "TRNG",
             "FLASH"
@@ -1233,8 +1164,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "default_lib": "std",
@@ -1266,8 +1195,6 @@
             "SEMIHOST",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "FLASH"
         ],
@@ -1299,8 +1226,6 @@
             "SEMIHOST",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "TRNG",
             "FLASH",
@@ -1339,12 +1264,9 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "TRNG",
-            "FLASH",
-            "802_15_4_PHY"
+            "FLASH"
         ],
         "release_versions": ["2", "5"],
         "device_name": "MKW24D512xxx5",
@@ -1377,8 +1299,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "TRNG",
             "STDIO_MESSAGES",
             "FLASH"
@@ -1419,9 +1339,6 @@
             "SERIAL_FC",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "TRNG",
             "FLASH"
@@ -1436,7 +1353,7 @@
     },
     "K64F": {
         "supported_form_factors": ["ARDUINO"],
-        "components_add": ["SD", "FLASHIAP"],
+        "components_add": [],
         "core": "Cortex-M4F",
         "supported_toolchains": ["ARM", "GCC_ARM", "IAR"],
         "extra_labels": [
@@ -1447,8 +1364,7 @@
             "KPSDK_MCUS",
             "KPSDK_CODE",
             "MCU_K64F",
-            "Freescale_EMAC",
-            "PSA"
+            "Freescale_EMAC"
         ],
         "is_disk_virtual": true,
         "macros": ["CPU_MK64FN1M0VMD12", "FSL_RTOS_MBED", "MBEDTLS_PSA_CRYPTO_C"],
@@ -1473,9 +1389,6 @@
             "SERIAL_FC",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "STORAGE",
             "TRNG",
@@ -1493,7 +1406,6 @@
         "inherits": ["K64F"],
         "extra_labels_add": ["K64F"],
         "extra_labels_remove": ["FRDM"],
-        "components_remove": ["SD"],
         "supported_form_factors": [],
         "detect_code": ["3105"]
     },
@@ -1518,7 +1430,6 @@
             "TRNG",
             "SLEEP",
             "INTERRUPTIN",
-            "SPI",
             "I2C",
             "ANALOGIN",
             "MPU"
@@ -1549,7 +1460,6 @@
             "TRNG",
             "SLEEP",
             "INTERRUPTIN",
-            "SPI",
             "I2C",
             "ANALOGIN",
             "MPU"
@@ -1586,9 +1496,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "FLASH"
         ],
@@ -1625,9 +1532,6 @@
             "SERIAL_ASYNCH",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "TRNG",
             "FLASH"
@@ -1677,9 +1581,6 @@
             "SERIAL_ASYNCH",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "TRNG",
             "FLASH"
@@ -1721,11 +1622,12 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "TRNG",
-            "FLASH"
+            "FLASH",
+            "SPI",
+            "SPISLAVE",
+            "SPI_ASYNCH"
         ],
         "release_versions": ["2", "5"],
         "device_name": "MK66FN2M0xxx18",
@@ -1736,7 +1638,7 @@
     },
     "K82F": {
         "supported_form_factors": ["ARDUINO"],
-        "components_add": ["SPIF", "FLASHIAP"],
+        "components_add": [],
         "core": "Cortex-M4F",
         "supported_toolchains": ["ARM", "GCC_ARM", "IAR"],
         "extra_labels": ["Freescale", "MCUXpresso_MCUS", "KSDK2_MCUS", "FRDM"],
@@ -1759,8 +1661,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "TRNG",
             "FLASH",
@@ -1772,7 +1672,6 @@
     "UBRIDGE": {
         "inherits": ["K82F"],
         "extra_labels_remove": ["FRDM"],
-        "components_remove": ["SPIF"],
         "device_has_remove": ["QSPI"],
         "supported_form_factors": []
     },
@@ -1825,9 +1724,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES"
         ]
     },
@@ -1865,8 +1761,6 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "MPU"
         ],
@@ -1904,8 +1798,6 @@
             "PORTOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "FLASH",
             "MPU"
@@ -1939,8 +1831,6 @@
             "PORTOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES",
             "FLASH",
             "TRNG",
@@ -2439,7 +2329,7 @@
     },
     "USI_WM_BN_BM_22": {
         "inherits": ["FAMILY_STM32"],
-        "components_add": ["SPIF", "FLASHIAP"],
+        "components_add": ["FLASHIAP"],
         "core": "Cortex-M4F",
         "extra_labels_add": [
             "STM32F4",
@@ -2618,7 +2508,10 @@
             "SERIAL_FC",
             "TRNG",
             "FLASH",
-            "MPU"
+            "MPU",
+            "SPI",
+            "SPISLAVE",
+            "SPI_ASYNCH"
         ],
         "detect_code": ["0796"],
         "release_versions": ["2", "5"],
@@ -3356,7 +3249,6 @@
         "detect_code": ["9015"],
         "release_versions": ["2", "5"],
         "device_name" : "STM32F439VI",
-        "components_add": ["SD"],
         "bootloader_supported": true,
         "overrides": {
             "network-default-interface-type": "CELLULAR"
@@ -4190,9 +4082,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ]
     },
     "MCU_NRF51_16K_BASE": {
@@ -4436,9 +4326,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "release_versions": ["2"],
         "device_name": "nRF51822_xxAA"
@@ -4472,10 +4360,7 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
-            "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "device_name": "nRF51822_xxAC"
     },
@@ -4587,10 +4472,7 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
-            "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "device_name": "nRF51822_xxAA",
         "release_versions": ["5"],
@@ -4630,10 +4512,7 @@
             "PWMOUT",
             "SERIAL",
             "SERIAL_ASYNCH",
-            "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "detect_code": ["1019"],
         "release_versions": ["2", "5"],
@@ -4665,8 +4544,6 @@
             "PORTOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SPI",
-            "SPISLAVE",
             "TSC"
         ]
     },
@@ -4692,8 +4569,6 @@
             "PORTOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SPI",
-            "SPISLAVE",
             "TSC",
             "MPU"
         ],
@@ -4717,8 +4592,6 @@
             "PORTOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SPI",
-            "SPISLAVE",
             "TSC",
             "MPU"
         ],
@@ -4742,8 +4615,6 @@
             "PORTOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SPI",
-            "SPISLAVE",
             "TSC",
             "MPU"
         ],
@@ -4767,8 +4638,6 @@
             "PORTOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SPI",
-            "SPISLAVE",
             "TSC",
             "MPU"
         ],
@@ -4792,8 +4661,6 @@
             "PORTOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SPI",
-            "SPISLAVE",
             "TSC",
             "MPU"
         ],
@@ -4814,8 +4681,6 @@
             "PORTOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SPI",
-            "SPISLAVE",
             "TSC",
             "MPU"
         ]
@@ -4838,8 +4703,6 @@
             "PORTOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SPI",
-            "SPISLAVE",
             "TSC",
             "MPU"
         ],
@@ -4866,7 +4729,6 @@
             "RTC",
             "SERIAL",
             "SLEEP",
-            "SPI",
             "TRNG",
             "USTICKER",
             "MPU"
@@ -4909,7 +4771,6 @@
             "PORTOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
             "MPU"
         ],
         "features": ["BLE"],
@@ -4938,9 +4799,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES"
         ],
         "program_cycle_s": 2,
@@ -4952,7 +4810,6 @@
         "inherits": ["RZ_A1XX"],
         "supported_form_factors": ["ARDUINO"],
         "extra_labels_add": ["RZA1H", "MBRZA1H", "RZ_A1_EMAC"],
-        "components_add": ["SD"],
         "device_has_add": ["EMAC", "FLASH", "LPTICKER"],
         "release_versions": ["2", "5"],
         "device_name": "R7S72100",
@@ -4968,7 +4825,6 @@
         "inherits": ["RZ_A1XX"],
         "supported_form_factors": ["ARDUINO"],
         "extra_labels_add": ["RZA1UL", "MBRZA1LU"],
-        "components_add": ["SD"],
         "device_has_add": ["TRNG", "FLASH", "LPTICKER"],
         "device_has_remove": ["ETHERNET"],
         "release_versions": ["2", "5"],
@@ -4996,7 +4852,6 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
             "STDIO_MESSAGES"
         ],
         "features": ["BLE"],
@@ -5020,7 +4875,6 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
             "STDIO_MESSAGES"
         ],
         "release_versions": ["2", "5"]
@@ -5041,8 +4895,6 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES"
         ],
         "features": ["BLE"],
@@ -5071,7 +4923,6 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
             "STDIO_MESSAGES",
             "USTICKER"
         ],
@@ -5101,7 +4952,6 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
             "STDIO_MESSAGES",
             "USTICKER"
         ],
@@ -5126,7 +4976,6 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
             "STDIO_MESSAGES",
             "USTICKER"
         ],
@@ -5174,7 +5023,6 @@
             "PWMOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SPI",
             "STDIO_MESSAGES",
             "USTICKER",
             "MPU"
@@ -5222,9 +5070,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "USTICKER",
             "FLASH",
@@ -5299,9 +5144,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "USTICKER",
             "FLASH",
@@ -5377,9 +5219,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "USTICKER",
             "FLASH",
@@ -5452,9 +5291,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "USTICKER"
         ],
@@ -5525,9 +5361,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "USTICKER"
         ],
@@ -5599,9 +5432,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "USTICKER",
             "FLASH",
@@ -5698,9 +5528,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "USTICKER",
             "FLASH",
@@ -5768,9 +5595,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "USTICKER",
             "FLASH",
@@ -5845,9 +5669,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "USTICKER",
             "TRNG",
@@ -5933,9 +5754,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "USTICKER",
             "TRNG",
@@ -6014,9 +5832,6 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "USTICKER",
             "TRNG",
@@ -6089,8 +5904,6 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "release_versions": ["2", "5"]
@@ -6114,8 +5927,6 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "release_versions": ["2", "5"]
@@ -6138,8 +5949,6 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SPI",
-            "SPISLAVE",
             "STDIO_MESSAGES"
         ],
         "release_versions": ["2", "5"]
@@ -6169,10 +5978,7 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH"
+            "SLEEP"
         ],
         "release_versions": ["2"],
         "device_name": "ATSAMR21G18A"
@@ -6203,10 +6009,7 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH"
+            "SLEEP"
         ],
         "release_versions": ["2"],
         "device_name": "ATSAMD21J18A"
@@ -6237,10 +6040,7 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH"
+            "SLEEP"
         ],
         "release_versions": ["2"],
         "device_name": "ATSAMD21G18A"
@@ -6271,10 +6071,7 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH"
+            "SLEEP"
         ],
         "device_name": "ATSAML21J18A"
     },
@@ -6306,9 +6103,6 @@
             "SERIAL_ASYNCH",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "MPU"
         ],
         "default_lib": "std",
@@ -6380,9 +6174,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ]
     },
     "MCU_NRF51_16K_UNIFIED_S130": {
@@ -6422,10 +6214,7 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
-            "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "release_versions": ["2", "5"],
         "device_name": "nRF51822_xxAA"
@@ -6446,10 +6235,7 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
-            "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "detect_code": ["3103"],
         "release_versions": ["2", "5"],
@@ -6470,10 +6256,7 @@
             "PWMOUT",
             "SERIAL",
             "SERIAL_ASYNCH",
-            "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "release_versions": ["2", "5"]
     },
@@ -6492,9 +6275,7 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "device_name": "nRF51822_xxAC"
     },
@@ -6526,8 +6307,6 @@
             "SERIAL_ASYNCH",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
             "SYSTICK_CLK_OFF_DURING_SLEEP",
             "TRNG",
             "USTICKER"
@@ -6648,8 +6427,6 @@
             "SERIAL_ASYNCH",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
             "SYSTICK_CLK_OFF_DURING_SLEEP",
             "TRNG",
             "USTICKER",
@@ -6763,9 +6540,6 @@
             "SERIAL_FC",
             "STDIO_MESSAGES",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "TRNG",
             "CAN",
             "FLASH",
@@ -6832,9 +6606,7 @@
             "SERIAL",
             "SERIAL_FC",
             "SLEEP",
-            "SPI",
             "TRNG",
-            "SPISLAVE",
             "802_15_4_PHY",
             "MPU"
         ],
@@ -6891,9 +6663,6 @@
             "SERIAL_FC",
             "STDIO_MESSAGES",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "CAN",
             "FLASH",
             "MPU"
@@ -6956,10 +6725,7 @@
             "SERIAL_ASYNCH",
             "SERIAL_FC",
             "STDIO_MESSAGES",
-            "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH"
+            "SLEEP"
         ],
         "release_versions": ["5"],
         "device_name": "NANO130KE3BN"
@@ -7028,7 +6794,6 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SPI",
             "TRNG",
             "FLASH"
         ],
@@ -7091,10 +6856,7 @@
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
-            "SLEEP",
-            "SPI",
-            "SPI_ASYNCH",
-            "SPISLAVE"
+            "SLEEP"
         ],
         "release_versions": ["2"],
         "device_name": "nRF51822_xxAC"
@@ -7259,9 +7021,6 @@
             "SERIAL_FC",
             "STDIO_MESSAGES",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "TRNG",
             "FLASH",
             "CAN",
@@ -7328,9 +7087,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "MPU"
         ],
@@ -7362,7 +7118,6 @@
             "PWMOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SPI",
             "I2C",
             "STDIO_MESSAGES",
             "TRNG",
@@ -7398,8 +7153,6 @@
             "PORTOUT",
             "SERIAL",
             "SERIAL_FC",
-            "SPI",
-            "SPISLAVE",
             "TSC",
             "USTICKER"
         ],
@@ -7493,9 +7246,6 @@
             "SERIAL_FC",
             "STDIO_MESSAGES",
             "SLEEP",
-            "SPI",
-            "SPISLAVE",
-            "SPI_ASYNCH",
             "TRNG",
             "FLASH",
             "MPU"
@@ -7523,7 +7273,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
             "I2C",
             "I2CSLAVE",
             "STDIO_MESSAGES",
@@ -7549,7 +7298,6 @@
             "PORTOUT",
             "PWMOUT",
             "SERIAL",
-            "SPI",
             "I2C",
             "I2CSLAVE",
             "STDIO_MESSAGES",
@@ -7585,8 +7333,6 @@
             "ANALOGOUT",
             "I2C",
             "I2C_ASYNCH",
-            "SPI",
-            "SPI_ASYNCH",
             "STDIO_MESSAGES",
             "LPTICKER",
             "SLEEP",
@@ -7681,7 +7427,6 @@
             "PWMOUT",
             "SERIAL",
             "SLEEP",
-            "SPI",
             "I2C",
             "I2CSLAVE",
             "STDIO_MESSAGES",
@@ -7698,7 +7443,7 @@
         "extra_labels": ["RDA", "UNO_91H", "FLASH_CMSIS_ALGO"],
         "supported_toolchains": ["ARM", "GCC_ARM", "IAR"],
         "macros": ["TWO_RAM_REGIONS", "CMSIS_NVIC_VIRTUAL", "CMSIS_NVIC_VIRTUAL_HEADER_FILE=\"RDA5981_nvic_virtual.h\""],
-        "device_has": ["USTICKER", "PORTIN", "PORTOUT", "PORTINOUT", "INTERRUPTIN", "SERIAL", "STDIO_MESSAGES", "PWMOUT", "SPI", "SLEEP", "ANALOGIN", "FLASH", "TRNG", "MPU"],
+        "device_has": ["USTICKER", "PORTIN", "PORTOUT", "PORTINOUT", "INTERRUPTIN", "SERIAL", "STDIO_MESSAGES", "PWMOUT", "SLEEP", "ANALOGIN", "FLASH", "TRNG", "MPU"],
         "release_versions": ["2", "5"]
     },
     "UNO_91H": {

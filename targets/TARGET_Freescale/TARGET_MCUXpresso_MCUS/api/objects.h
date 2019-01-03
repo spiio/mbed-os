@@ -20,8 +20,9 @@
 #include "PortNames.h"
 #include "PeripheralNames.h"
 #include "PinNames.h"
-#if DEVICE_SPI_ASYNCH
+#if DEVICE_SPI
 #include "fsl_dspi_edma.h"
+#include "spi_api.h"
 #endif
 #if DEVICE_SERIAL_ASYNCH
 #include "fsl_uart_edma.h"
@@ -70,18 +71,33 @@ struct i2c_s {
     uint8_t next_repeated_start;
 };
 
+#if DEVICE_SPI
 struct spi_s {
     uint32_t instance;
     uint8_t bits;
+    bool is_slave;
+    spi_bit_ordering_t order;
+    bool initialised;
 #if DEVICE_SPI_ASYNCH
+    spi_async_handler_f handler;
+    void *ctx;
+    uint32_t transfer_len;
+    volatile uint32_t transfered;
+
     status_t status;
+
     dspi_master_handle_t spi_master_handle;
-    dspi_master_edma_handle_t spi_dma_master_handle;
-    dma_options_t spiDmaMasterRx;
-    dma_options_t spiDmaMasterTx;
-    dma_options_t spiDmaMasterIntermediary;
+    union mode_u {
+        struct master_s {
+            dspi_master_handle_t handle;
+        } master;
+        struct slave_s {
+            dspi_slave_handle_t handle;
+        } slave;
+    } u;
 #endif
 };
+#endif
 
 struct dac_s {
     DACName dac;
