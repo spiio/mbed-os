@@ -1469,6 +1469,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "SERIAL",
             "SERIAL_FC",
             "SERIAL_ASYNCH",
@@ -1479,7 +1480,8 @@
             "STDIO_MESSAGES",
             "STORAGE",
             "TRNG",
-            "FLASH"
+            "FLASH",
+            "WATCHDOG"
         ],
         "features": ["STORAGE"],
         "release_versions": ["2", "5"],
@@ -1621,6 +1623,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
@@ -1630,7 +1633,8 @@
             "SPISLAVE",
             "STDIO_MESSAGES",
             "TRNG",
-            "FLASH"
+            "FLASH",
+            "WATCHDOG"
         ],
         "default_lib": "std",
         "release_versions": ["2", "5"],
@@ -1865,7 +1869,8 @@
             "SPI",
             "SPISLAVE",
             "SPI_ASYNCH",
-            "STDIO_MESSAGES"
+            "STDIO_MESSAGES",
+            "WATCHDOG"
         ]
     },
     "MIMXRT1050_EVK": {
@@ -2336,7 +2341,7 @@
         },
         "detect_code": ["0720"],
         "macros_add": ["USB_STM_HAL", "USBHOST_OTHER"],
-        "device_has_add": ["SERIAL_ASYNCH", "SERIAL_FC", "FLASH", "MPU"],
+        "device_has_add": ["SERIAL_ASYNCH", "SERIAL_FC", "FLASH", "MPU", "LOWPOWERTIMER", "WATCHDOG"],
         "release_versions": ["2", "5"],
         "device_name": "STM32F401RE"
     },
@@ -2389,7 +2394,8 @@
             "SERIAL_FC",
             "TRNG",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "release_versions": ["2", "5"],
         "device_name": "STM32F410RB"
@@ -2413,7 +2419,7 @@
             }
         },
         "macros_add": ["USB_STM_HAL", "USBHOST_OTHER"],
-        "device_has_add": ["SERIAL_ASYNCH", "SERIAL_FC", "FLASH", "MPU"],
+        "device_has_add": ["SERIAL_ASYNCH", "SERIAL_FC", "FLASH", "MPU", "WATCHDOG"],
         "release_versions": ["2", "5"],
         "device_name": "STM32F411RE",
         "bootloader_supported": true
@@ -2438,7 +2444,8 @@
             "SERIAL_FC",
             "TRNG",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "release_versions": ["2", "5"],
         "device_name": "STM32F412ZG",
@@ -2568,7 +2575,8 @@
             "TRNG",
             "FLASH",
             "QSPI",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "bootloader_supported": true,
         "release_versions": ["2", "5"],
@@ -2669,7 +2677,8 @@
             "SERIAL_FC",
             "TRNG",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "detect_code": ["0796"],
         "release_versions": ["2", "5"],
@@ -2721,7 +2730,8 @@
             "SERIAL_FC",
             "TRNG",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "detect_code": ["0797"],
         "release_versions": ["2", "5"],
@@ -2751,7 +2761,8 @@
             "SERIAL_ASYNCH",
             "SERIAL_FC",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "release_versions": ["2", "5"],
         "device_name": "STM32F446RE",
@@ -2777,7 +2788,8 @@
             "SERIAL_ASYNCH",
             "SERIAL_FC",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "release_versions": ["2", "5"],
         "device_name": "STM32F446ZE"
@@ -2794,7 +2806,8 @@
             "SERIAL_ASYNCH",
             "SERIAL_FC",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "release_versions": ["2", "5"],
         "device_name": "STM32F446VE"
@@ -3962,7 +3975,7 @@
             "function": "MTSCode.combine_bins_mts_dragonfly",
             "toolchains": ["GCC_ARM", "ARM_STD", "ARM_MICRO", "IAR"]
         },
-        "device_has_add": ["MPU"],
+        "device_has_add": ["MPU", "WATCHDOG"],
         "release_versions": ["2", "5"],
         "device_name": "STM32F411RE"
     },
@@ -4248,7 +4261,8 @@
             "SERIAL_FC",
             "TRNG",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "public": false,
         "device_name": "STM32F437VG",
@@ -5371,6 +5385,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "RTC",
             "SERIAL",
             "SERIAL_ASYNCH",
@@ -5382,7 +5397,8 @@
             "USTICKER",
             "FLASH",
             "ITM",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "forced_reset_timeout": 2,
         "config": {
@@ -5448,6 +5464,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "RTC",
             "SERIAL",
             "SERIAL_ASYNCH",
@@ -5458,7 +5475,8 @@
             "STDIO_MESSAGES",
             "USTICKER",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "forced_reset_timeout": 2,
         "device_name": "EFM32LG990F256",
@@ -5526,6 +5544,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "RTC",
             "SERIAL",
             "SERIAL_ASYNCH",
@@ -5536,7 +5555,8 @@
             "STDIO_MESSAGES",
             "USTICKER",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "forced_reset_timeout": 2,
         "config": {
@@ -5602,6 +5622,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
@@ -5609,7 +5630,8 @@
             "SPISLAVE",
             "SPI_ASYNCH",
             "STDIO_MESSAGES",
-            "USTICKER"
+            "USTICKER",
+            "WATCHDOG"
         ],
         "forced_reset_timeout": 2,
         "config": {
@@ -5675,6 +5697,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "SERIAL",
             "SERIAL_ASYNCH",
             "SLEEP",
@@ -5682,7 +5705,8 @@
             "SPISLAVE",
             "SPI_ASYNCH",
             "STDIO_MESSAGES",
-            "USTICKER"
+            "USTICKER",
+            "WATCHDOG"
         ],
         "forced_reset_timeout": 2,
         "config": {
@@ -5748,6 +5772,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "RTC",
             "SERIAL",
             "SERIAL_ASYNCH",
@@ -5758,7 +5783,8 @@
             "STDIO_MESSAGES",
             "USTICKER",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "forced_reset_timeout": 2,
         "config": {
@@ -5847,6 +5873,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "RTC",
             "SERIAL",
             "SERIAL_ASYNCH",
@@ -5857,7 +5884,8 @@
             "STDIO_MESSAGES",
             "USTICKER",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "forced_reset_timeout": 2,
         "config": {
@@ -5917,6 +5945,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "RTC",
             "SERIAL",
             "SERIAL_ASYNCH",
@@ -5927,7 +5956,8 @@
             "STDIO_MESSAGES",
             "USTICKER",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "forced_reset_timeout": 5,
         "config": {
@@ -5994,6 +6024,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "RTC",
             "SERIAL",
             "SERIAL_ASYNCH",
@@ -6005,7 +6036,8 @@
             "USTICKER",
             "TRNG",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "forced_reset_timeout": 2,
         "config": {
@@ -6082,6 +6114,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "RTC",
             "SERIAL",
             "SERIAL_ASYNCH",
@@ -6093,7 +6126,8 @@
             "USTICKER",
             "TRNG",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "forced_reset_timeout": 5,
         "config": {
@@ -6916,6 +6950,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
@@ -6928,7 +6963,8 @@
             "CAN",
             "FLASH",
             "EMAC",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "release_versions": ["5"],
         "device_name": "NUC472HI8AE",
@@ -6993,6 +7029,7 @@
             "SPI",
             "TRNG",
             "SPISLAVE",
+            "WATCHDOG",
             "802_15_4_PHY",
             "MPU"
         ],
@@ -7054,7 +7091,8 @@
             "SPI_ASYNCH",
             "CAN",
             "FLASH",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "release_versions": ["2", "5"],
         "device_name": "M453VG6AE",
@@ -7110,6 +7148,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "SERIAL",
             "SERIAL_ASYNCH",
             "SERIAL_FC",
@@ -7117,7 +7156,8 @@
             "SLEEP",
             "SPI",
             "SPISLAVE",
-            "SPI_ASYNCH"
+            "SPI_ASYNCH",
+            "WATCHDOG"
         ],
         "release_versions": ["5"],
         "device_name": "NANO130KE3BN"
@@ -7439,7 +7479,8 @@
             "FLASH",
             "CAN",
             "EMAC",
-            "MPU"
+            "MPU",
+            "WATCHDOG"
         ],
         "release_versions": ["5"],
         "bootloader_supported": true,
@@ -7473,6 +7514,7 @@
             "PORTIN",
             "PORTINOUT",
             "PORTOUT",
+            "RESET_REASON",
             "SERIAL",
             "SLEEP",
             "I2C",
@@ -7499,6 +7541,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "SERIAL",
             "SLEEP",
             "SPI",
@@ -7533,6 +7576,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "SERIAL",
             "SERIAL_FC",
             "SPI",
@@ -7697,6 +7741,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "SERIAL",
             "SLEEP",
             "SPI",
@@ -7724,6 +7769,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "SERIAL",
             "SPI",
             "I2C",
@@ -7902,6 +7948,7 @@
             "PORTINOUT",
             "PORTOUT",
             "PWMOUT",
+            "RESET_REASON",
             "SERIAL",
             "SLEEP",
             "SPI",
